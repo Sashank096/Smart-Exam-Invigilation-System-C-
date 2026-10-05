@@ -31,8 +31,7 @@
 - [Getting Started](#-getting-started)
 - [Default Login](#-default-login)
 - [Testing](#-testing)
-- [Future Improvements](#-future-improvements)
-- [Team](#-team)
+
 
 ---
 
@@ -399,36 +398,3 @@ The credentials are stored in `data/admin.csv`, which is created on first run. Y
 The core logic (models and conflict detection) can also be checked from the console using `src/core_test.cpp`.
 
 ---
-
-## 🔮 Future Improvements
-
-- Improve the GUI and overall user experience
-- Perform complete system testing
-- Fix remaining bugs
-- Finalize documentation and presentation
-
----
-
-## 👥 Team
-
-| Name | Roll No. |
-|---|---|
-| **S. Sashank Reddy** | 25B11AIA75 |
-| **R. Tharun** | 25B11AIA42 |
-| **H. Vamsi** | 25B11AI401 |
-| **J. Vasanth** | 25B11AI432 |
-
-**Guide:** Mr. K S S Praveen Kumar, M.Tech (PhD)
-**Co-Guide:** Dr. K. Raja Sravan Kumar, PhD
-
-🏛️ Department of Artificial Intelligence & Machine Learning, **Aditya University**
-
----
-
-<div align="center">
-
-⭐ If you found this project useful, consider giving it a star!
-
-Made with ❤️ using C++ and SFML
-
-</div>
