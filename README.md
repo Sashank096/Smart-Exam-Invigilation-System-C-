@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="docs/images/aditya-university-logo.png" alt="Aditya University" width="420"/>
 
 # 🎓 Smart Exam Invigilation System
 
@@ -108,7 +107,7 @@ Manual examination management is time-consuming and prone to errors, especially 
 ## 🏗️ System Architecture
 
 <div align="center">
-<img src="docs/images/architecture.png" alt="System architecture" width="650"/>
+
 </div>
 
 **Class responsibilities**
@@ -133,10 +132,6 @@ The system is made of **7 modules**. Each one is shown below with its purpose, m
 
 Provides secure access for authorized administrators and validates the user before entering the system.
 
-<div align="center">
-<img src="docs/images/01-login.jpg" alt="Login screen" width="650"/>
-</div>
-
 - **Main class:** `Admin`
 - **Functions:** `login()` · `logout()` · `resetPassword()`
 - **Libraries:** `<string>` (string handling) · `<fstream>` (file handling) · `<utility>` (`std::move()`)
@@ -155,10 +150,6 @@ bool login(const std::string& user,
 
 Add, view, search, update and delete student records.
 
-<div align="center">
-<img src="docs/images/02-student-management.jpg" alt="Student Management screen" width="650"/>
-</div>
-
 - **Main class:** `Student`
 - **Functions:** `addStudent()` · `viewStudents()` · `searchStudent()` · `updateStudent()` · `deleteStudent()`
 - **Fields:** Student ID, Name, Department, Year, Hall Number, Email, Phone
@@ -171,9 +162,6 @@ Add, view, search, update and delete student records.
 
 Manage invigilator records, contact details and availability.
 
-<div align="center">
-<img src="docs/images/03-invigilator-management.jpg" alt="Invigilator Management screen" width="650"/>
-</div>
 
 - **Main class:** `Invigilator`
 - **Functions:** `addInvigilator()` · `viewInvigilators()` · `searchInvigilator()` · `updateInvigilator()` · `deleteInvigilator()`
@@ -186,10 +174,6 @@ Manage invigilator records, contact details and availability.
 
 Manage hall numbers, blocks, capacity and availability.
 
-<div align="center">
-<img src="docs/images/04-exam-hall-management.jpg" alt="Exam Hall Management screen" width="650"/>
-</div>
-
 - **Main class:** `ExamHall`
 - **Functions:** `addExamHall()` · `viewExamHalls()` · `searchExamHall()` · `updateExamHall()` · `deleteExamHall()`
 - **Fields:** Hall ID, Hall Number, Block, Capacity, Availability
@@ -201,9 +185,6 @@ Manage hall numbers, blocks, capacity and availability.
 
 Manage subjects, exam dates, timings and departments.
 
-<div align="center">
-<img src="docs/images/05-exam-schedule.jpg" alt="Exam Schedule screen" width="650"/>
-</div>
 
 - **Main class:** `Exam`
 - **Functions:** `addExam()` · `viewExams()` · `searchExam()` · `updateExam()` · `deleteExam()`
@@ -216,9 +197,6 @@ Manage subjects, exam dates, timings and departments.
 
 Assign invigilators to exam halls and avoid scheduling conflicts — this is the "smart" part of the system.
 
-<div align="center">
-<img src="docs/images/06-invigilator-allocation.jpg" alt="Invigilator Allocation screen" width="650"/>
-</div>
 
 - **Main class:** `Allocation`
 - **Functions:** `allocateInvigilator()` · `viewAllocations()` · `checkConflict()` · `removeAllocation()`
@@ -238,9 +216,6 @@ Assign invigilators to exam halls and avoid scheduling conflicts — this is the
 
 Displays examination information, invigilator allocations and management summaries (total students, invigilators, halls, exams and allocations), with an **Export Report** option.
 
-<div align="center">
-<img src="docs/images/07-reports-dashboard.jpg" alt="Reports and Dashboard Summary screen" width="650"/>
-</div>
 
 - **Main classes:** `Report` · `Dashboard`
 - **Functions:** `generateReport()` · `viewReport()` · `showDashboard()`
@@ -252,17 +227,10 @@ Displays examination information, invigilator allocations and management summari
 
 A single-page overview of the sample inputs and outputs across the whole system.
 
-<div align="center">
-<img src="docs/images/sample-io-overview.jpg" alt="Sample inputs and output screenshots" width="900"/>
-</div>
-
 ---
 
 ## 🎬 Project Demonstration Flow
 
-<div align="center">
-<img src="docs/images/demo-flow.png" alt="Project demonstration flow" width="380"/>
-</div>
 
 1. **Login** — administrator logs in with valid credentials
 2. **Dashboard** — overview of all modules with quick navigation
