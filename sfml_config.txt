@@ -1,0 +1,4 @@
+# Put the full path to your SFML folder below, e.g.
+# C:\SFML-2.6.1
+C:\SFML-2.6.1
+C:\SFML-2.6.1
